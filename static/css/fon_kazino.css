@@ -1,0 +1,27 @@
+html {
+  background: url(casino-wallpaper.jpg) no-repeat;
+  height: 100%; /* 100% высота страницы */
+  weight: 100%;
+}
+
+img.rylet {
+    margin-top: 200px;
+    margin-left: 300px;
+}
+
+.razz {
+    margin-top: 200px;
+}
+
+.cyrs {
+    margin-left: 100px;
+    margin-top: 300px;
+}
+
+.ball {
+    margin-left: 1200px;
+}
+
+.ssz {
+    margin-left: 370px;
+}

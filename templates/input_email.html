@@ -1,0 +1,15 @@
+<head>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <div id="login" class="animate form">
+        <form method="post" action="/set_password" class="dds">
+            <h3>Введите ваш email</h3>
+            <p>
+                <input type="text" id="sddd" name="in_ema" class="in_ema" placeholder="mymeil@mail.ru">
+            </p>
+            <p class="login button">
+                <input type="submit" value="Отправить код"/>
+        </form>
+    </div>
+</body>

@@ -1,0 +1,72 @@
+.animate form {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 240px;
+    max-width: 450px;
+    background-color: #331a00;
+    text-align: center;
+    border: 1px solid gray;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.pass {
+    background-color: #fcbdb8;
+    margin-left: 5px;
+}
+
+.pass1 {
+    background-color: #fcbdb8;
+    margin-left: 0px;
+}
+
+.pass2 {
+    margin-left: 5px;
+}
+
+.parol {
+    margin-left: 40px;
+    color: #ff2e2e;
+}
+
+.uname {
+    margin-left: 38px;
+}
+
+.uname1 {
+    margin-right: 0px;
+}
+
+.unsame1 {
+    margin-left: 22px;
+}
+
+.token_error {
+    background-color: #fcbdb8;
+}
+
+.forgot_pass {
+    color: #f7f0fa;
+    margin-left: 40px;
+}
+
+.miran {
+    color: #f7f0fa;
+}
+
+.change_link {
+    color: #f7f0fa;
+}
+
+.to_subscribe {
+    color: #f7f0fa;
+}
+
+
+	body {
+		background: #000 url(kazinfon.jpg); /* Фоновый цвет и фоновый рисунок*/
+		color: #ffffff;
+		background-attachment: fixed; /* Фон страницы фиксируется */
+		background-repeat: repeat-x; /* Изображение повторяется по горизонтали */
+	}
+

@@ -1,0 +1,19 @@
+<head>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <div id="login" class="animate form">
+        <form method="post" class="dds" action="/pass_change">
+            <font size="5" face="Arial"> Дважды введите новый пароль.</font>
+            <p>
+                <input type="text" id="miran" name="miran" class="danila" placeholder="Пароль">
+            </p>
+            <p>
+                <input id="danila" name="danila" type="password" class="danila" placeholder="Подтвердите пароль">
+            </p>
+            <p class="login button">
+                <input type="submit" value="Вход" />
+            </p>
+        </form>
+    </div>
+</body>

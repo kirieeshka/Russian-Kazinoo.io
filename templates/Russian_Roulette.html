@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/fon_kazino.css') }}">
+  <meta charset="utf-8">
+  <title>Русская Рулетка</title>
+ </head>
+ <body>
+ <a>
+ <center>
+ <font size="10" face="Arial" color="white"> Russian Рулетка</font>
+ <font class="ball" size="6" color="yellow"> Баланс: {{mon}}</font>
+ </center>
+</a>
+<table>
+  <tr>
+    <td><a  href="http://127.0.0.1:5000/Башня">
+ <img  class="rylet" src="static/img/bashnya.jpg">
+ </a></td>
+    <td><a  href="http://127.0.0.1:5000/Слоты">
+ <img  class="rylet" src="static/img/777.jpg">
+ </a></td>
+    <td><a  href="http://127.0.0.1:5000/Рулетка">
+ <img  class="rylet" src="static/img/number.jpg">
+ </a></td>
+  </tr>
+  <tr>
+    <td><font class="ssz" size="4" color="white"> Башня</font></td>
+    <td><font class="ssz" size="4" color="white"> Слоты</font></td>
+    <td><font class="ssz" size="4" color="white"> Рулетка</font></td>
+  </tr>
+</table>
+ <!-- main-russia 300x130 blue-->
+<div class="cyrs" id='kursvalut-com-informer-main-russia-300x130-blue-container'>Курс валют <a id='kursvalut-com-informer-main-russia-300x130-blue' title='Курс валют' target='_blank'>old.kurs.com.ru</a></div>
+<script type='text/javascript'>
+(function() {var iframe = '<ifr'+'ame src="https://old.kurs.com.ru/informer/inf2?color=blue" width="300" height="130" frameborder="0" vspace="0" scrolling="no" hspace="0"></ifr'+'ame>';var container = document.getElementById('kursvalut-com-informer-main-russia-300x130-blue');container.parentNode.innerHTML = iframe;})();
+</script>
+<noscript><img src='https://old.kurs.com.ru/static/images/informer/kurs.png' width='52' height='1000' alt='old.kurs.com.ru: курс валют в России!' title='Курс валют' border='0' /></noscript>
+<!--//main-russia 300x130 blue-->
+ </body>
+</html>

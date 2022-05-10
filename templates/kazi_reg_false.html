@@ -1,0 +1,30 @@
+<head>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <div id="login" class="animate form">
+        <form method="post" action="/register" class="dds">
+            <h1>Регистрация</h1>
+            <p>
+                <label for="username" class="uname" data-icon="u" > Ваш mail </label>
+                <input id="username" name="username" type="email" class="uname">
+            </p>
+            <p>
+                <label for="password" class="youpasswd" data-icon="p"> Придумайте пароль </label>
+                <input id="password" name="password" type="password" class="pass">
+            </p>
+            <p>
+                <label for="password" class="youpasswd" data-icon="p"> Подтвердите пароль </label>
+                <input id="pass" name="pass" type="password" class="pass1">
+            </p>
+            <p class="login button">
+                <input type="submit" value="Регистрация" />
+                <font class="parol">Пароли не совпадают</font>
+            </p>
+            <p class="change_link">
+                У вас уже есть профиль?
+                <a href="/login" class="to_subscribe">Авторизация</a>
+            </p>
+        </form>
+    </div>
+</body>

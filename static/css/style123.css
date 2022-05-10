@@ -1,0 +1,18 @@
+
+form.zs {
+   color: #007539;
+   background-color: #99ff99;
+   max-width: 500px
+}
+
+form.mr {
+   color: #999900;
+   background-color: #ffff66;
+   max-width: 500px
+}
+
+form.pr {
+   color: #cc0000;
+   background-color: #ff6666;
+   max-width: 500px
+}

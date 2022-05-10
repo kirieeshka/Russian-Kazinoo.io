@@ -1,0 +1,17 @@
+<head>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <div id="login" class="animate form">
+        <form method="post" action="/reg_status" class="dds">
+            <h3>На ваш email был выслан токен, введите его ниже для подтверждения регистрации</h3>
+            <p>
+                <label for="sddd" class="name" data-icon="u" > Токен </label>
+                <input type="text" id="sddd" name="token" class="name">
+            </p>
+            <p class="login button">
+                <input type="submit" value="Вход"/>
+            </p>
+        </form>
+    </div>
+</body>
